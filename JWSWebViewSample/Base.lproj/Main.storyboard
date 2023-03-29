@@ -10,7 +10,7 @@
         <!--Bridge UIWebView Controller-->
         <scene sceneID="suK-jS-chE">
             <objects>
-                <viewController id="7Ke-dV-zc6" userLabel="Bridge UIWebView Controller" customClass="WebViewBridgeViewController" customModule="WebViewMessagingSample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7Ke-dV-zc6" userLabel="Bridge UIWebView Controller" customClass="WebViewBridgeViewController" customModule="JWSWebViewSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GVt-g0-Bby">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

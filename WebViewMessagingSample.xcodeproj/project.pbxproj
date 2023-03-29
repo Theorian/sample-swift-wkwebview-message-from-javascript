@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BC9FF1D71FDDF8FE000A2E56 /* JWSWebViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWSWebViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9FF1D71FDDF8FE000A2E56 /* WebViewMessagingSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewMessagingSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9FF1DA1FDDF8FE000A2E56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC9FF1DF1FDDF8FE000A2E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC9FF1E11FDDF8FE000A2E56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		BC9FF1CE1FDDF8FE000A2E56 = {
 			isa = PBXGroup;
 			children = (
-				BC9FF1D91FDDF8FE000A2E56 /* JWSWebViewSample */,
+				BC9FF1D91FDDF8FE000A2E56 /* WebViewMessagingSample */,
 				BC9FF1D81FDDF8FE000A2E56 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		BC9FF1D81FDDF8FE000A2E56 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC9FF1D71FDDF8FE000A2E56 /* JWSWebViewSample.app */,
+				BC9FF1D71FDDF8FE000A2E56 /* WebViewMessagingSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC9FF1D91FDDF8FE000A2E56 /* JWSWebViewSample */ = {
+		BC9FF1D91FDDF8FE000A2E56 /* WebViewMessagingSample */ = {
 			isa = PBXGroup;
 			children = (
 				BCECA3CC20F3438F00547535 /* WebViewBridgeViewController.swift */,
@@ -61,15 +61,15 @@
 				BC9FF1E31FDDF8FE000A2E56 /* LaunchScreen.storyboard */,
 				BC9FF1E61FDDF8FE000A2E56 /* Info.plist */,
 			);
-			path = JWSWebViewSample;
+			path = WebViewMessagingSample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BC9FF1D61FDDF8FE000A2E56 /* JWSWebViewSample */ = {
+		BC9FF1D61FDDF8FE000A2E56 /* WebViewMessagingSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC9FF1E91FDDF8FE000A2E56 /* Build configuration list for PBXNativeTarget "JWSWebViewSample" */;
+			buildConfigurationList = BC9FF1E91FDDF8FE000A2E56 /* Build configuration list for PBXNativeTarget "WebViewMessagingSample" */;
 			buildPhases = (
 				BC9FF1D31FDDF8FE000A2E56 /* Sources */,
 				BC9FF1D41FDDF8FE000A2E56 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = JWSWebViewSample;
-			productName = JWSWebViewSample;
-			productReference = BC9FF1D71FDDF8FE000A2E56 /* JWSWebViewSample.app */;
+			name = WebViewMessagingSample;
+			productName = WebViewMessagingSample;
+			productReference = BC9FF1D71FDDF8FE000A2E56 /* WebViewMessagingSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BC9FF1D21FDDF8FE000A2E56 /* Build configuration list for PBXProject "JWSWebViewSample" */;
+			buildConfigurationList = BC9FF1D21FDDF8FE000A2E56 /* Build configuration list for PBXProject "WebViewMessagingSample" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BC9FF1D61FDDF8FE000A2E56 /* JWSWebViewSample */,
+				BC9FF1D61FDDF8FE000A2E56 /* WebViewMessagingSample */,
 			);
 		};
 /* End PBXProject section */
@@ -285,7 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MR6RU29G53;
-				INFOPLIST_FILE = JWSWebViewSample/Info.plist;
+				INFOPLIST_FILE = WebViewMessagingSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.theorian.jsmessage;
@@ -305,7 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MR6RU29G53;
-				INFOPLIST_FILE = JWSWebViewSample/Info.plist;
+				INFOPLIST_FILE = WebViewMessagingSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.theorian.jsmessage;
@@ -319,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BC9FF1D21FDDF8FE000A2E56 /* Build configuration list for PBXProject "JWSWebViewSample" */ = {
+		BC9FF1D21FDDF8FE000A2E56 /* Build configuration list for PBXProject "WebViewMessagingSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC9FF1E71FDDF8FE000A2E56 /* Debug */,
@@ -328,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC9FF1E91FDDF8FE000A2E56 /* Build configuration list for PBXNativeTarget "JWSWebViewSample" */ = {
+		BC9FF1E91FDDF8FE000A2E56 /* Build configuration list for PBXNativeTarget "WebViewMessagingSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC9FF1EA1FDDF8FE000A2E56 /* Debug */,
