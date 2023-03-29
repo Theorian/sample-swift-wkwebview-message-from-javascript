@@ -1,6 +1,6 @@
 //
 //  WebViewBridgeViewController.swift
-//  JWSWebViewSample
+//  WebViewRemoteMessagingSample
 //
 //  Created by Arin Cranley on 2023/01/01.
 //  Copyright © 2023/01/01 Arin Cranley. All rights reserved.
